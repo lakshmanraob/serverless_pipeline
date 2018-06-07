@@ -3,8 +3,8 @@ image: node:6.10
 
 variables:
     # replace this with YOUR custom bucket name
-    S3_BUCKET: pipeline-demo-tarekbecker
-    AWS_DEFAULT_REGION: eu-central-1
+    S3_BUCKET: laksh-gitlab-pipeline
+    AWS_DEFAULT_REGION: us-east-1
 
 stages:
     - install # install all npm dependencies
